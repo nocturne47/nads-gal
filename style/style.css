@@ -25,7 +25,6 @@ body {
   background-color: #daa520;
   border-bottom: 1px solid yellow;
   position: fixed;
-  height: 100px;
   top: 0;
   left: 0;
   right: 0;
@@ -34,7 +33,7 @@ body {
 
 .navbar .logo {
   position: relative;
-  top: 20px;
+  display: flex;
 }
 .navbar .logo .navbar-logo {
   font-family: serif;
@@ -42,9 +41,6 @@ body {
   font-weight: 700;
   color: yellow;
   font-style: italic;
-  position: relative;
-  top: -45px;
-  left: 20px;
 }
 .navbar .logo .logos {
   display: inline;
@@ -55,7 +51,6 @@ body {
   color: whitesmoke;
   display: inline-block;
   position: relative;
-  left: 30px;
 }
 
 .navbar .navbar-nav a {
