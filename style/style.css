@@ -115,7 +115,6 @@ body {
   background-position: center;
   background-blend-mode: hard-light;
   position: relative;
-  padding: 0 10rem;
 }
 .home::after {
   content: "";
@@ -130,6 +129,7 @@ body {
   padding: 1.4rem 7%;
   max-width: 50rem;
   text-align: center;
+  padding: 0 4rem;
 }
 
 .home .content .atas {
