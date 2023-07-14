@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ffd700;
+  background-color: #5dbb63;
   color: #fff;
 }
 /* NAVBAR */
@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: rgba(218, 165, 32, 0.8);
+  background-color: rgba(96, 125, 59, 0.8);
   /* border-bottom: 1px solid yellow; */
   position: fixed;
   top: 0;
@@ -63,17 +63,16 @@ body {
 }
 
 .navbar .navbar-nav a:hover {
-  color: olivedrab;
+  color: gold;
 }
 .navbar .navbar-nav a:active {
-  color: olivedrab;
-  background-color: greenyellow;
+  color: yellow;
 }
 .navbar .navbar-nav a::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
-  border-bottom: 0.1rem solid olive;
+  border-bottom: 0.1rem solid gold;
   transform: scaleX(0);
   transition: 0.2s linear;
 }
@@ -100,7 +99,7 @@ body {
   margin: 0.5rem 0.5rem;
 }
 .navbar .cari a#search:hover {
-  color: olive;
+  color: yellow;
 }
 
 /* HOME */
@@ -108,7 +107,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/bg2.jpeg");
+  background-image: url("../img/bg3.jpg");
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,7 +122,7 @@ body {
   width: 100%;
   height: 30%;
   bottom: 0;
-  background: linear-gradient(0deg, #ffd700 8%, rgba(255, 255, 255, 0) 50%);
+  background: linear-gradient(0deg, #5dbb63 8%, rgba(255, 255, 255, 0) 50%);
 }
 .home .content {
   padding: 1.4rem 7%;
@@ -140,22 +139,22 @@ body {
 
 .home .content h1 {
   font-size: 5em;
-  color: green;
+  color: greenyellow;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
 }
 
 .home .content h1 span {
-  color: green;
+  color: greenyellow;
 }
 
 .home .content p {
   font-size: 1.6rem;
   margin-top: 1rem;
-  color: olivedrab;
+  color: olive;
   line-height: 1.4rem;
   font-weight: 100;
-  text-shadow: 1px 1px 3px olive;
+  text-shadow: 1px 1px 3px olivedrab;
   /* mix-blend-mode: difference; */
 }
 
@@ -275,7 +274,7 @@ body {
 }
 
 /* Hide the images by default */
-.gallery .mySlides {
+.gallery .allgal .mySlides {
   display: none;
 }
 
