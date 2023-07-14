@@ -22,14 +22,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: #daa520;
+  background-color: rgba(218, 165, 32, 0.8);
   /* border-bottom: 1px solid yellow; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 9999;
-  height: 90px;
+  height: 75px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -130,6 +130,8 @@ body {
   max-width: 50rem;
   text-align: center;
   padding: 0 4rem;
+  margin-left: 30px;
+  margin-right: -10px;
 }
 
 .home .content .atas {
@@ -219,7 +221,8 @@ body {
   min-height: 100vh;
   align-items: center;
   display: flex;
-  margin: auto;
+  justify-content: center;
+  /* margin-right: 10px; */
   /* background-color: black; */
 }
 .home .sideimg img {
@@ -227,4 +230,15 @@ body {
   height: 300px;
   margin: auto;
   /* background-image: url("../img/bingkai.png"); */
+}
+
+.gallery {
+  padding: 8rem 7% 1.4rem;
+}
+.gallery .titel {
+  min-height: 100vh;
+}
+.gallery .titel h1 {
+  justify-content: center;
+  align-items: center;
 }
