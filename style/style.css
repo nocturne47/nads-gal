@@ -376,5 +376,27 @@ body {
     opacity: 1;
   }
 }
+.gallery .allgal .gbr-kecil {
+  /* display: block; */
+  width: 95%;
+  overflow: auto;
+  padding-left: 40px;
+}
+.gallery .allgal .gbr-kecil .kecil {
+  background-color: black;
+  display: inline-block;
+  margin: 20px 1.5% 10px;
+  /* float: left; */
+  width: 30%;
+  height: 50vh;
+  text-align: left;
+}
+
+.gallery .allgal .gbr-kecil .kecil h3,
+.gallery .allgal .gbr-kecil .kecil p {
+  position: relative;
+  top: 80%;
+  left: 5px;
+}
 
 /* GALL'S END */

@@ -53,3 +53,16 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
   setTimeout(showSlides, 2000);
 }
+
+let bg = [];
+bg[0] = "url('img/bg.png')";
+bg[1] = "url('img/1.jpg')";
+bg[2] = "url('img/2.jpg')";
+bg[3] = "url('img/3.jpg')";
+bg[4] = "url('img/bg3.jpg')";
+bg[5] = "url('img/bg2.jpeg')";
+
+let kcls = document.getElementsByClassName("kecil");
+for (let j = 0; j < kcls.length; j++) {
+  kcls[j].style.backgroundImage = bg[j];
+}
