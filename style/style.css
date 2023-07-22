@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #5dbb63;
+  background-color: #fade7c;
   color: #fff;
 }
 /* NAVBAR */
@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: rgba(96, 125, 59, 0.8);
+  background-color: rgba(184, 134, 11, 0.8);
   /* border-bottom: 1px solid yellow; */
   position: fixed;
   top: 0;
@@ -53,6 +53,8 @@ body {
   color: whitesmoke;
   display: inline-block;
   position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .navbar .navbar-nav a {
@@ -63,16 +65,16 @@ body {
 }
 
 .navbar .navbar-nav a:hover {
-  color: gold;
+  color: olivedrab;
 }
 .navbar .navbar-nav a:active {
-  color: yellow;
+  color: olive;
 }
 .navbar .navbar-nav a::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
-  border-bottom: 0.1rem solid gold;
+  border-bottom: 0.1rem solid olivedrab;
   transform: scaleX(0);
   transition: 0.2s linear;
 }
@@ -99,7 +101,7 @@ body {
   margin: 0.5rem 0.5rem;
 }
 .navbar .cari a#search:hover {
-  color: yellow;
+  color: olivedrab;
 }
 
 /* HOME */
@@ -122,7 +124,7 @@ body {
   width: 100%;
   height: 30%;
   bottom: 0;
-  background: linear-gradient(0deg, #5dbb63 8%, rgba(255, 255, 255, 0) 50%);
+  background: linear-gradient(0deg, #fade7c 8%, rgba(255, 255, 255, 0) 50%);
 }
 .home .content {
   padding: 1.4rem 7%;
@@ -139,13 +141,15 @@ body {
 
 .home .content h1 {
   font-size: 5em;
-  color: greenyellow;
+  color: olivedrab;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
+  font-family: serif;
 }
 
 .home .content h1 span {
-  color: greenyellow;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .home .content p {
@@ -155,7 +159,6 @@ body {
   line-height: 1.4rem;
   font-weight: 100;
   text-shadow: 1px 1px 3px olivedrab;
-  /* mix-blend-mode: difference; */
 }
 
 .home .content .tombol-home {
@@ -173,15 +176,6 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 .home .content .tombol-home::before {
-  /* margin-top: 1rem;
-  font-family: sans-serif;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 0.8rem;
-  color: #fff;
-  background-color: seagreen;
-  /* border-radius: 0.5rem; */
-  /* box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); */
   content: "";
   position: absolute;
   top: 0;
@@ -221,14 +215,11 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  /* margin-right: 10px; */
-  /* background-color: black; */
 }
 .home .sideimg img {
   width: 300px;
   height: 300px;
   margin: auto;
-  /* background-image: url("../img/bingkai.png"); */
 }
 /* END HOME */
 
@@ -236,24 +227,8 @@ body {
 .gallery {
   padding: 5rem 7% 1.4rem;
   min-height: 100vh;
+  background: linear-gradient(0deg, #fae7b9 8%, rgba(255, 255, 255, 0) 20%);
 }
-
-/* .gallery .galhead {
-  align-items: center;
-
-}
-.gallery .galhead h1 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: green;
-  font-size: 3em;
-}
-.gallery .galhead p {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-} */
 
 /* Slideshow container */
 .gallery .allgal {
@@ -261,9 +236,7 @@ body {
   max-height: 90%;
   width: 70%;
   padding: 10px;
-  /* border: 1px solid transparent; */
-  /* background-color: #9b870d; */
-  background: linear-gradient(180deg, #9b870d 30%, rgba(255, 255, 255, 0) 50%);
+  background: linear-gradient(180deg, #fada5e 30%, rgba(255, 255, 255, 0) 50%);
   position: relative;
   margin: auto;
 }
@@ -320,9 +293,10 @@ body {
   bottom: 40%;
   width: 100%;
   text-align: center;
+  font-family: serif;
 }
 .gallery .allgal .text p {
-  color: greenyellow;
+  color: #5e716a;
   /* font-size: 15px; */
   justify-content: center;
   align-items: center;
@@ -331,6 +305,8 @@ body {
   bottom: 30%;
   width: 100%;
   text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Number text (1/3 etc) */
@@ -392,25 +368,37 @@ body {
   text-align: left;
 }
 
-.gallery .allgal .gbr-kecil .kecil h3,
+.gallery .allgal .gbr-kecil .kecil h3 {
+  position: relative;
+  top: 80%;
+  left: 5px;
+  color: black;
+  font-family: serif;
+}
+
 .gallery .allgal .gbr-kecil .kecil p {
   position: relative;
   top: 80%;
   left: 5px;
+  color: grey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 /* GALL'S END */
 
 /* ABOUT START */
 .about {
   display: block;
-  background-color: whitesmoke;
+  background-color: #fae7b9;
   min-height: 100vh;
   padding: 5rem 7% 1.4rem;
 }
 .about h2 {
   color: #9b870d;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
+  margin: 20px 0 -20px 0;
+  font-size: 25px;
 }
 .about .artist {
   display: flex;
@@ -418,35 +406,39 @@ body {
   justify-content: center;
   width: 70%;
   min-height: 60vh;
-  border: blue solid;
+  /* border: blue solid; */
 }
 .about .artist img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: auto 0;
+  border-bottom: rgba(255, 255, 0, 0.7) groove;
 }
 .about .artist .ist {
   display: block;
-  color: blue;
-  margin: auto 30px;
+  /* color: blue; */
+  margin: auto 0;
   width: 50%;
   align-items: center;
 }
 .about .artist .ist h3 {
   margin: 0 10px;
   padding: 5px 0;
+  color: goldenrod;
 }
 .about .artist .ist h1 {
   margin: 0 10px;
   font-size: 40px;
   padding: 5px 0;
+  color: #ffd300;
 }
 .about .artist .ist p {
   display: flex;
   text-align: justify;
   margin: 0 10px;
   padding: 5px 0;
+  color: grey;
 }
 .about .artist .ist .icons-about {
   display: flex;
@@ -467,8 +459,9 @@ body {
   border-width: 1px;
 }
 .about .artist .ist .icons-about .medsos-about:hover {
-  background-color: blue;
+  background-color: goldenrod;
   color: white;
+  border: goldenrod;
 }
 
 /* ABOUT END */
