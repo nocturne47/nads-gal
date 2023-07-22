@@ -415,17 +415,23 @@ body {
 .about .artist {
   display: flex;
   margin: 50px auto;
-  justify-content: space-between;
+  justify-content: center;
   width: 70%;
+  min-height: 60vh;
+  border: blue solid;
 }
 .about .artist img {
   width: 200px;
+  height: 200px;
   border-radius: 50%;
+  margin: auto 0;
 }
 .about .artist .ist {
   display: block;
   color: blue;
   margin: auto 30px;
+  width: 50%;
+  align-items: center;
 }
 .about .artist .ist h3 {
   margin: 0 10px;
