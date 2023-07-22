@@ -398,5 +398,71 @@ body {
   top: 80%;
   left: 5px;
 }
-
 /* GALL'S END */
+
+/* ABOUT START */
+.about {
+  display: block;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  padding: 5rem 7% 1.4rem;
+}
+.about h2 {
+  color: #9b870d;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.about .artist {
+  display: flex;
+  margin: 50px auto;
+  justify-content: space-between;
+  width: 70%;
+}
+.about .artist img {
+  width: 200px;
+  border-radius: 50%;
+}
+.about .artist .ist {
+  display: block;
+  color: blue;
+  margin: auto 30px;
+}
+.about .artist .ist h3 {
+  margin: 0 10px;
+  padding: 5px 0;
+}
+.about .artist .ist h1 {
+  margin: 0 10px;
+  font-size: 40px;
+  padding: 5px 0;
+}
+.about .artist .ist p {
+  display: flex;
+  text-align: justify;
+  margin: 0 10px;
+  padding: 5px 0;
+}
+.about .artist .ist .icons-about {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.about .artist .ist .icons-about .medsos-about {
+  display: flex;
+  color: grey;
+  fill: currentColor;
+  border: grey;
+  border-style: solid;
+  border-radius: 9999px;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 12px 0 12px 10px;
+  align-items: center;
+  border-width: 1px;
+}
+.about .artist .ist .icons-about .medsos-about:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* ABOUT END */
