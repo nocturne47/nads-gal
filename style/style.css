@@ -491,6 +491,36 @@ body {
   text-align: center;
   color: #86a17d;
 }
+.contact .con .tact {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.contact .con .tact .act {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.contact .con .tact .act img {
+  padding: 10px;
+}
+.contact .con .tact .act h3 {
+  color: whitesmoke;
+}
+.contact .con .tact .act h1 {
+  margin: 0;
+}
+.contact .con .tact .act p {
+  width: 50%;
+  margin: 0 auto;
+}
+.contact .con .tact .act .medsos-about {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
 /* CONTACT END */
 /* FOOTER START */
 .foot {
