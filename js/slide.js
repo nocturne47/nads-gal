@@ -66,3 +66,17 @@ let kcls = document.getElementsByClassName("kecil");
 for (let j = 0; j < kcls.length; j++) {
   kcls[j].style.backgroundImage = bg[j];
 }
+
+// toggle class active
+const navbarNav = document.querySelector(".navbar-nav");
+document.querySelector(".burger").onclick = () => {
+  navbarNav.classList.toggle("active");
+};
+
+// klik di luar sidebar untuk menghilangkan nav
+const menu = document.querySelector(".burger");
+document.addEventListener("click", function (e) {
+  if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {
+    navbarNav.classList.remove("active");
+  }
+});
